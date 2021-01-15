@@ -5,8 +5,9 @@
 body{
     height: 100%;
     font-family: Arial,sans-serif;
-    background-color: #ccc;
+    background-image: url("../img/default.webp");
     overflow: hidden;
+    transition: background-image 2s;
 }
 .weatherApp{
     height: 100vh;
