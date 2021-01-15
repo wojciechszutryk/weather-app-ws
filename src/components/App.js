@@ -54,7 +54,7 @@ class App extends Component {
 
   render() {
     return (
-        <div>
+        <div className="weatherApp">
           <Form city={this.state.city} change={this.handleInputCity} submit={this.handleCitySubmit}/>
           <Result information={this.state}/>
         </div>
